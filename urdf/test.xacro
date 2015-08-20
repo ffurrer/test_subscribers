@@ -1,0 +1,298 @@
+<?xml version="1.0"?>
+
+<robot name="test_robot" xmlns:xacro="http://ros.org/wiki/xacro">
+  <link name="base_link">
+    <inertial>
+      <mass value="1" />
+      <origin xyz="0 0 0" />
+      <inertia ixx="1" ixy="0.0" ixz="0.0" iyy="1" iyz="0.0" izz="1" />
+    </inertial>
+
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <box size="0.01 0.01 0.01"/>
+      </geometry>
+    </visual>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <box size="0.01 0.01 0.01" />
+      </geometry>
+    </collision>
+  </link>
+
+  <gazebo>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin1">
+      <number>1</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin2">
+      <number>2</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin3">
+      <number>3</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin4">
+      <number>4</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin5">
+      <number>5</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin6">
+      <number>6</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin7">
+      <number>7</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin8">
+      <number>8</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin9">
+      <number>9</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin10">
+      <number>10</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin11">
+      <number>11</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin12">
+      <number>12</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin13">
+      <number>13</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin14">
+      <number>14</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin15">
+      <number>15</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin16">
+      <number>16</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin17">
+      <number>17</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin18">
+      <number>18</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin19">
+      <number>19</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin20">
+      <number>20</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin21">
+      <number>21</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin22">
+      <number>22</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin23">
+      <number>23</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin24">
+      <number>24</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin25">
+      <number>25</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin26">
+      <number>26</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin27">
+      <number>27</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin28">
+      <number>28</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin29">
+      <number>29</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin30">
+      <number>30</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin31">
+      <number>31</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin32">
+      <number>32</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin33">
+      <number>33</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin34">
+      <number>34</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin35">
+      <number>35</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin36">
+      <number>36</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin37">
+      <number>37</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin38">
+      <number>38</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin39">
+      <number>39</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin40">
+      <number>40</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin41">
+      <number>41</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin42">
+      <number>42</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin43">
+      <number>43</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin44">
+      <number>44</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin45">
+      <number>45</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin46">
+      <number>46</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin47">
+      <number>47</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin48">
+      <number>48</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin49">
+      <number>49</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin50">
+      <number>50</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin51">
+      <number>51</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin52">
+      <number>52</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin53">
+      <number>53</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin54">
+      <number>54</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin55">
+      <number>55</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin56">
+      <number>56</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin57">
+      <number>57</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin58">
+      <number>58</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin59">
+      <number>59</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin60">
+      <number>60</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin61">
+      <number>61</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin62">
+      <number>62</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin63">
+      <number>63</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin64">
+      <number>64</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin65">
+      <number>65</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin66">
+      <number>66</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin67">
+      <number>67</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin68">
+      <number>68</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin69">
+      <number>69</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin70">
+      <number>70</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin71">
+      <number>71</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin72">
+      <number>72</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin73">
+      <number>73</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin74">
+      <number>74</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin75">
+      <number>75</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin76">
+      <number>76</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin77">
+      <number>77</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin78">
+      <number>78</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin79">
+      <number>79</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin80">
+      <number>80</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin81">
+      <number>81</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin82">
+      <number>82</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin83">
+      <number>83</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin84">
+      <number>84</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin85">
+      <number>85</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin86">
+      <number>86</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin87">
+      <number>87</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin88">
+      <number>88</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin89">
+      <number>89</number>
+    </plugin>
+    <plugin filename="libtest_gazebo_plugin.so" name="test_gazebo_plugin90">
+      <number>90</number>
+    </plugin>
+  </gazebo>
+</robot>

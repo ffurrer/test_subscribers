@@ -1,0 +1,10 @@
+<launch>
+  <arg name="xacro_file" default="$(find test_subscribers)/urdf/test.xacro"/>
+
+  <param name="robot_description" command="$(find xacro)/xacro.py '$(arg xacro_file)'" />
+
+  <node name="spawn_test" pkg="gazebo_ros" type="spawn_model"
+        args="-param robot_description -urdf -model test_robot" respawn="false"
+        output="screen">
+  </node>
+</launch>

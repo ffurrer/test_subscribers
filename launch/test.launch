@@ -1,0 +1,7 @@
+<launch>
+  <node name="test_msg_publisher" pkg="test_subscribers" type="test_msg_publisher" />
+
+  <include file="$(find gazebo_ros)/launch/empty_world.launch" />
+
+  <include file="$(find test_subscribers)/launch/spawn_test.launch" />
+</launch>
